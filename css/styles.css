@@ -343,91 +343,19 @@ footer .SiteMap ul li a {
 }
 
 /* pagina productos*/
-.gral {
-  margin: 40px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: space-evenly;
-      -ms-flex-pack: space-evenly;
-          justify-content: space-evenly;
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: flex-start;
-}
-
-#Principal {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  width: 60vw;
-}
-
-#Principal article img {
-  width: 190px;
-}
-
-#Principal article {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  font-size: 13px;
-}
-
-#Principal article h1 {
-  padding-bottom: 15px;
-  font-size: 55px;
-  font-family: 'Nunito';
-  letter-spacing: -4px;
-}
-
-#Principal article h3 {
-  padding-top: 35px;
-}
-
-#Secundario {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-}
-
-.caja {
-  margin: 15px 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-}
-
 .cardsProducto {
   border: 2px solid transparent;
-  -webkit-box-shadow: 0px 0px 10px 2px #109aa4;
-          box-shadow: 0px 0px 10px 2px #109aa4;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-  height: 464px;
+  -webkit-box-shadow: 0px 0px 10px 2px #dbdbdb;
+          box-shadow: 0px 0px 10px 2px #dbdbdb;
+  height: 530px;
   margin: 20px 0px;
 }
 
 .cardsProducto:hover {
-  -webkit-box-shadow: none;
-          box-shadow: none;
+  -webkit-box-shadow: 0px 0px 10px 2px #109aa4;
+          box-shadow: 0px 0px 10px 2px #109aa4;
   border: 2px solid #109aa4;
 }
 
@@ -461,97 +389,6 @@ footer .SiteMap ul li a {
   border: 2px solid transparent;
 }
 
-/* pagina guias */
-.primaryBox {
-  padding-top: 4vh;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  width: 100vw;
-  margin: 3px;
-}
-
-.primaryBox_container--Grid {
-  border: #cec3ad solid 4px;
-  padding: 5px;
-  margin: 3px;
-  color: white;
-  display: -ms-grid;
-  display: grid;
-  background-color: #f0e5cf;
-  background: -webkit-gradient(linear, left top, left bottom, from(#f0e5cf), to(#c2af88));
-  background: linear-gradient(#f0e5cf, #c2af88);
-  width: 700px;
-  -ms-grid-columns: (1fr)[5];
-      grid-template-columns: repeat(5, 1fr);
-  -webkit-box-align: start;
-      -ms-flex-align: start;
-          align-items: start;
-}
-
-.container__Grid--itemXS {
-  margin: 3px;
-  display: -ms-grid;
-  display: grid;
-  background: -webkit-gradient(linear, left top, left bottom, from(#5a83b9), to(#344f72));
-  background: linear-gradient(#5a83b9, #344f72);
-}
-
-.item__tamanio {
-  margin: 3px;
-  display: -ms-grid;
-  display: grid;
-  background: -webkit-gradient(linear, left top, left bottom, from(#c8c6c6), to(#7a7979));
-  background: linear-gradient(#c8c6c6, #7a7979);
-}
-
-.item__tamanio ul {
-  margin: 3px;
-  color: black;
-  display: -ms-grid;
-  display: grid;
-  background-color: #f7f6f2;
-}
-
-.item__tamanio ul li {
-  margin: 3px;
-}
-
-.container__Grid--itemS {
-  margin: 3px;
-  display: -ms-grid;
-  display: grid;
-  background: -webkit-gradient(linear, left top, left bottom, from(#6590c8), to(#344f72));
-  background: linear-gradient(#6590c8, #344f72);
-}
-
-.container__Grid--itemM {
-  margin: 3px;
-  display: -ms-grid;
-  display: grid;
-  background: -webkit-gradient(linear, left top, left bottom, from(#6590c8), to(#344f72));
-  background: linear-gradient(#6590c8, #344f72);
-}
-
-.container__Grid--itemL {
-  margin: 3px;
-  display: -ms-grid;
-  display: grid;
-  background: -webkit-gradient(linear, left top, left bottom, from(#6590c8), to(#344f72));
-  background: linear-gradient(#6590c8, #344f72);
-}
-
-.container__Grid--itemXL {
-  margin: 3px;
-  display: -ms-grid;
-  display: grid;
-  background: -webkit-gradient(linear, left top, left bottom, from(#6590c8), to(#344f72));
-  background: linear-gradient(#6590c8, #344f72);
-}
-
 #guias {
   min-height: 80vh;
   display: -webkit-box;
@@ -563,6 +400,10 @@ footer .SiteMap ul li a {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+}
+
+.accordion-body ul li {
+  text-transform: capitalize;
 }
 
 /* pagina nosotros */

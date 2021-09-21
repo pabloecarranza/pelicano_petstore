@@ -1,70 +1,12 @@
-/* pagina guias */
-.primaryBox {
-    padding-top: 4vh;
-    display: flex;
-    justify-content: center;
-    width: 100vw;
-    margin: 3px;
-}
-
-.primaryBox_container--Grid {
-    border: rgb(206, 195, 173) solid 4px;
-    padding: 5px;
-    margin: 3px;
-    color: white;
-    display: grid;
-    background-color: rgb(240, 229, 207);
-    background: linear-gradient(rgb(240, 229, 207), rgb(194, 175, 136));
-    width: 700px;
-    grid-template-columns: repeat(5, 1fr);
-    align-items: start;
-}
-
-.container__Grid--itemXS {
-    margin: 3px;
-    display: grid;
-    background: linear-gradient(rgb(90, 131, 185), rgb(52, 79, 114));
-}
-
-.item__tamanio {
-    margin: 3px;
-    display: grid;
-    background: linear-gradient(rgb(200, 198, 198), rgb(122, 121, 121));
-}
-
-.item__tamanio ul {
-    margin: 3px;
-    color: black;
-    display: grid;
-    background-color: rgb(247, 246, 242);
-}
-.item__tamanio ul li {
-    margin: 3px;
-}
-.container__Grid--itemS {
-    margin: 3px;
-    display: grid;
-    background: linear-gradient(rgb(101, 144, 200), rgb(52, 79, 114));
-}
-.container__Grid--itemM {
-    margin: 3px;
-    display: grid;
-    background: linear-gradient(rgb(101, 144, 200), rgb(52, 79, 114));
-}
-.container__Grid--itemL {
-    margin: 3px;
-    display: grid;
-    background: linear-gradient(rgb(101, 144, 200), rgb(52, 79, 114));
-}
-.container__Grid--itemXL {
-    margin: 3px;
-    display: grid;
-    background: linear-gradient(rgb(101, 144, 200), rgb(52, 79, 114));
-}
+// /* pagina guias */
 
 #guias {
     min-height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.accordion-body ul li{
+    text-transform: capitalize;
 }
