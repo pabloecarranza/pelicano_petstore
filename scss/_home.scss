@@ -1,0 +1,107 @@
+/* Pagina principal*/
+
+#company__logo {
+    margin-right: 12px;
+}
+.float__logoWhats--sticky {
+    position: absolute;
+    position: fixed;
+    z-index: 1;
+    top: 83%;
+    left: 91%;
+}
+.float__logoWhats--sticky:hover {
+    transform: scale(1.1);
+    transition: all ease 500ms;
+}
+
+@media (max-width: 512px) {
+    .float__logoWhats--sticky {
+        left: 80%;
+    }
+}
+
+.containerPrimary_img--Mobile {
+    display: none;
+    width: 100%;
+}
+.containerPrimary_img--Desktop {
+    width: 61vw;
+}
+.cardsBox {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 1rem;
+    img {
+        width: 90px;
+    }
+}
+@for $i from 1 to 4 {
+    .card__#{$i} {
+        @include card;
+    }
+}
+
+#containerPrimary {
+    display: flex;
+    justify-content: space-between;
+    overflow: hidden;
+}
+
+.containerPrimary__company {
+    img {
+        width: 190px;
+    }
+
+    padding-top: 50px;
+    padding-left: 20px;
+    width: 39vw;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+
+    h2 {
+        font-size: 40px;
+        font-family: $tipografiaGeneral;
+        letter-spacing: -1px;
+        line-height: 37px;
+    }
+
+    p {
+        letter-spacing: -0.1px;
+        font-family: $tipografiaGeneral;
+    }
+}
+
+.containerPrimary_button {
+    padding: 7px;
+    margin: 10px 0px;
+    margin-top: 10px;
+    transition: all 0.5s ease;
+    display: flex;
+    justify-content: center;
+    width: 100px;
+    background-color: $colorSecundario;
+    border-radius: 10px;
+    a {
+        color: white;
+        text-decoration: none;
+    }
+    &:hover {
+        color: white;
+    }
+}
+
+.containerPrimary_button:hover {
+    width: 150px;
+    color: white;
+    background-color: $colorPrimario;
+}
+
+.InstaBox {
+    padding-top: 3rem;
+    display: flex;
+    justify-content: space-around;
+}

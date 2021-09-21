@@ -1,0 +1,603 @@
+/* Global Reset */
+@import url("https://fonts.googleapis.com/css2?family=Nobile:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Allison&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Nobile";
+}
+
+/* Import Fonts */
+/* Pagina de ingreso*/
+#enter {
+  width: 150px;
+  padding: 0 42px;
+  font-size: 18px;
+  font-family: "Nunito";
+  letter-spacing: -1px;
+}
+
+.login {
+  margin-top: 10px;
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.login img {
+  width: 19vw;
+  border-radius: 50%;
+}
+
+.login h1 {
+  font-size: 82px;
+  font-family: "Allison";
+}
+
+.login div {
+  margin-top: 30px;
+  background-color: #449ba3;
+  border-radius: 10px;
+}
+
+.login div a {
+  text-decoration: none;
+  color: white;
+}
+
+.login div:hover {
+  background-color: #48bfca;
+  border-radius: 10px;
+}
+
+/* Pagina principal*/
+#company__logo {
+  margin-right: 12px;
+}
+
+.float__logoWhats--sticky {
+  position: absolute;
+  position: fixed;
+  z-index: 1;
+  top: 83%;
+  left: 91%;
+}
+
+.float__logoWhats--sticky:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all ease 500ms;
+  transition: all ease 500ms;
+}
+
+@media (max-width: 512px) {
+  .float__logoWhats--sticky {
+    left: 80%;
+  }
+}
+
+.containerPrimary_img--Mobile {
+  display: none;
+  width: 100%;
+}
+
+.containerPrimary_img--Desktop {
+  width: 61vw;
+}
+
+.cardsBox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  font-size: 1rem;
+}
+
+.cardsBox img {
+  width: 90px;
+}
+
+.card__1 {
+  height: 320px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 200px;
+  text-align: center;
+}
+
+.card__2 {
+  height: 320px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 200px;
+  text-align: center;
+}
+
+.card__3 {
+  height: 320px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 200px;
+  text-align: center;
+}
+
+#containerPrimary {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  overflow: hidden;
+}
+
+.containerPrimary__company {
+  padding-top: 50px;
+  padding-left: 20px;
+  width: 39vw;
+  height: 70vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.containerPrimary__company img {
+  width: 190px;
+}
+
+.containerPrimary__company h2 {
+  font-size: 40px;
+  font-family: "Nunito";
+  letter-spacing: -1px;
+  line-height: 37px;
+}
+
+.containerPrimary__company p {
+  letter-spacing: -0.1px;
+  font-family: "Nunito";
+}
+
+.containerPrimary_button {
+  padding: 7px;
+  margin: 10px 0px;
+  margin-top: 10px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100px;
+  background-color: #449ba3;
+  border-radius: 10px;
+}
+
+.containerPrimary_button a {
+  color: white;
+  text-decoration: none;
+}
+
+.containerPrimary_button:hover {
+  color: white;
+}
+
+.containerPrimary_button:hover {
+  width: 150px;
+  color: white;
+  background-color: #48bfca;
+}
+
+.InstaBox {
+  padding-top: 3rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+/* menu de navegacion*/
+header {
+  z-index: 1;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  box-shadow: 5px -1px 15px -1px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 5px -1px 15px -1px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 5px -1px 15px -1px rgba(0, 0, 0, 0.75);
+}
+
+a.navbar-brand {
+  font-family: "Allison";
+  font-size: 2.4rem;
+  font-weight: bold;
+}
+
+.navbar {
+  height: 60px;
+}
+
+.nav-link {
+  color: white;
+  border-radius: 5px;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+  color: white;
+}
+
+a.nav-link.active:hover {
+  text-transform: bold;
+  background-color: #48bfca;
+  border-radius: 5px;
+}
+
+a.nav-link:hover {
+  color: white;
+  border-radius: 5px;
+  background-color: #48bfca;
+}
+
+footer {
+  margin-top: 90px;
+  background-color: #e2e2e2;
+  -webkit-box-shadow: 0px -5px 9px 2px rgba(223, 223, 223, 0.582);
+          box-shadow: 0px -5px 9px 2px rgba(223, 223, 223, 0.582);
+}
+
+footer div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer div img {
+  margin: 30px 20px;
+}
+
+footer .SiteMap ul li {
+  text-transform: uppercase;
+  margin: 0 10px;
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+}
+
+footer .SiteMap ul li a {
+  color: black;
+  font-family: "Nunito";
+  text-decoration: none;
+}
+
+@media (max-width: 512px) {
+  header img {
+    width: 40px;
+  }
+  a.navbar-brand {
+    font-size: 2.2rem;
+  }
+  .navbar-nav {
+    background-color: #48bfca;
+    padding: 20px 10px;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    color: white;
+  }
+  footer {
+    padding: 20px 0px;
+  }
+  .SiteMap ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0px;
+    margin: 0px;
+  }
+}
+
+/* pagina productos*/
+.gral {
+  margin: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+#Principal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 60vw;
+}
+
+#Principal article img {
+  width: 190px;
+}
+
+#Principal article {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-size: 13px;
+}
+
+#Principal article h1 {
+  padding-bottom: 15px;
+  font-size: 55px;
+  font-family: 'Nunito';
+  letter-spacing: -4px;
+}
+
+#Principal article h3 {
+  padding-top: 35px;
+}
+
+#Secundario {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.caja {
+  margin: 15px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.cardsProducto {
+  border: 2px solid transparent;
+  -webkit-box-shadow: 0px 0px 10px 2px #109aa4;
+          box-shadow: 0px 0px 10px 2px #109aa4;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  height: 464px;
+  margin: 20px 0px;
+}
+
+.cardsProducto:hover {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+  border: 2px solid #109aa4;
+}
+
+.cardsProducto .contenedorImg {
+  min-height: 135px;
+}
+
+.cardsProducto img {
+  width: 200px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.cardsProducto h3 {
+  color: #109aa4;
+  min-height: 10px;
+}
+
+.cardsProducto .card-body p {
+  min-height: 200px;
+}
+
+.cardsProducto a {
+  background-color: transparent;
+  border: 2px solid #109aa4;
+  color: #109aa4;
+}
+
+.cardsProducto a:hover {
+  background-color: #109aa4;
+  border: 2px solid transparent;
+}
+
+/* pagina guias */
+.primaryBox {
+  padding-top: 4vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100vw;
+  margin: 3px;
+}
+
+.primaryBox_container--Grid {
+  border: #cec3ad solid 4px;
+  padding: 5px;
+  margin: 3px;
+  color: white;
+  display: -ms-grid;
+  display: grid;
+  background-color: #f0e5cf;
+  background: -webkit-gradient(linear, left top, left bottom, from(#f0e5cf), to(#c2af88));
+  background: linear-gradient(#f0e5cf, #c2af88);
+  width: 700px;
+  -ms-grid-columns: (1fr)[5];
+      grid-template-columns: repeat(5, 1fr);
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: start;
+}
+
+.container__Grid--itemXS {
+  margin: 3px;
+  display: -ms-grid;
+  display: grid;
+  background: -webkit-gradient(linear, left top, left bottom, from(#5a83b9), to(#344f72));
+  background: linear-gradient(#5a83b9, #344f72);
+}
+
+.item__tamanio {
+  margin: 3px;
+  display: -ms-grid;
+  display: grid;
+  background: -webkit-gradient(linear, left top, left bottom, from(#c8c6c6), to(#7a7979));
+  background: linear-gradient(#c8c6c6, #7a7979);
+}
+
+.item__tamanio ul {
+  margin: 3px;
+  color: black;
+  display: -ms-grid;
+  display: grid;
+  background-color: #f7f6f2;
+}
+
+.item__tamanio ul li {
+  margin: 3px;
+}
+
+.container__Grid--itemS {
+  margin: 3px;
+  display: -ms-grid;
+  display: grid;
+  background: -webkit-gradient(linear, left top, left bottom, from(#6590c8), to(#344f72));
+  background: linear-gradient(#6590c8, #344f72);
+}
+
+.container__Grid--itemM {
+  margin: 3px;
+  display: -ms-grid;
+  display: grid;
+  background: -webkit-gradient(linear, left top, left bottom, from(#6590c8), to(#344f72));
+  background: linear-gradient(#6590c8, #344f72);
+}
+
+.container__Grid--itemL {
+  margin: 3px;
+  display: -ms-grid;
+  display: grid;
+  background: -webkit-gradient(linear, left top, left bottom, from(#6590c8), to(#344f72));
+  background: linear-gradient(#6590c8, #344f72);
+}
+
+.container__Grid--itemXL {
+  margin: 3px;
+  display: -ms-grid;
+  display: grid;
+  background: -webkit-gradient(linear, left top, left bottom, from(#6590c8), to(#344f72));
+  background: linear-gradient(#6590c8, #344f72);
+}
+
+#guias {
+  min-height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+/* pagina nosotros */
+#nosotros {
+  position: relative;
+  background-image: url("../img/pelicano1.png");
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  min-height: 80vh;
+  padding: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#nosotros h2 {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+#nosotros p {
+  width: 80%;
+  text-align: center;
+  font-size: 15px;
+  line-height: 1.8;
+}
+
+.form {
+  margin-top: 40px;
+}
+/*# sourceMappingURL=styles.css.map */

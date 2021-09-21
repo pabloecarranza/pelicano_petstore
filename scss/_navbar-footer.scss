@@ -1,0 +1,138 @@
+/* menu de navegacion*/
+
+header {
+    z-index: 1;
+    position: sticky;
+    top: 0px;
+    box-shadow: 5px -1px 15px -1px rgba(0, 0, 0, 0.75);
+    -webkit-box-shadow: 5px -1px 15px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 5px -1px 15px -1px rgba(0, 0, 0, 0.75);
+}
+
+a.navbar-brand {
+    font-family: $tipografiaSecundaria;
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+.navbar {
+    height: 60px;
+}
+
+.nav-link {
+    color: white;
+    border-radius: 5px;
+}
+
+.navbar-light .navbar-nav .nav-link:focus,
+.navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(255, 255, 255);
+}
+a.nav-link.active:hover {
+    text-transform: bold;
+    background-color: $colorPrimario;
+    border-radius: 5px;
+}
+a.nav-link:hover {
+    color: white;
+    border-radius: 5px;
+    background-color: $colorPrimario;
+}
+
+// footer {
+//   margin-top: 200px;
+//   display: flex;
+//   justify-content: space-between;
+//   align-items: flex-start;
+//   box-shadow: 0px -5px 9px 2px rgba(231, 231, 231, 0.75);
+//   -webkit-box-shadow: 0px -5px 9px 2px rgba(230, 230, 230, 0.75);
+//   -moz-box-shadow: 0px -5px 9px 2px rgba(226, 225, 225, 0.75);
+// }
+
+// .map {
+//   display: flex;
+//   padding: 10px 10px;
+// }
+
+// .DataContact {
+//   margin-top: 12px;
+//   display: flex;
+//   flex-direction: column;
+// }
+// .siteMap {
+//   margin-top: 30px;
+//   display: flex;
+//   flex-direction: column;
+//   align-items: center;
+// }
+// .siteMap a {
+//   text-decoration: none;
+// }
+// .redes {
+//   margin: 30px 20px;
+//   display: flex;
+//   flex-direction: column;
+//   align-items: flex-end;
+//   img{
+//     margin: 0 5px;
+//     width: 30px;
+
+//   }
+// }
+
+footer {
+    margin-top: 90px;
+    background-color: rgb(226, 226, 226);
+    box-shadow: 0px -5px 9px 2px rgba(223, 223, 223, 0.582);
+    div {
+        display: flex;
+        justify-content: center;
+        img {
+            margin: 30px 20px;
+        }
+    }
+    .SiteMap {
+        ul {
+            li {
+                text-transform: uppercase;
+                margin: 0 10px;
+                display: inline-flex;
+                a {
+                    color: black;
+                    font-family: $tipografiaGeneral;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 512px) {
+    header img {
+        width: 40px;
+    }
+    a.navbar-brand {
+        font-size: 2.2rem;
+    }
+
+    .navbar-nav {
+        background-color: $colorPrimario;
+        padding: 20px 10px;
+    }
+
+    .navbar-light .navbar-nav .nav-link {
+        color: white;
+    }
+
+    footer {
+        padding: 20px 0px;
+    }
+
+    .SiteMap ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        margin: 0px;
+    }
+}

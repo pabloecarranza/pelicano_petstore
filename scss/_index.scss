@@ -1,0 +1,38 @@
+/* Pagina de ingreso*/
+#enter {
+  width: 150px;
+  padding: 0 42px;
+  font-size: 18px;
+  font-family: $tipografiaGeneral;
+  letter-spacing: -1px;
+}
+
+.login {
+  margin-top: 10px;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  img {
+    width: 19vw;
+    border-radius: 50%;
+  }
+  h1 {
+    font-size: 82px;
+    font-family: $tipografiaSecundaria;
+  }
+  div {
+    margin-top: 30px;
+    background-color: $colorSecundario;
+    border-radius: 10px;
+    a {
+      text-decoration: none;
+      color: white;
+    }
+    &:hover {
+      background-color: $colorPrimario;
+      border-radius: 10px;
+    }
+  }
+}

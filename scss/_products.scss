@@ -1,0 +1,87 @@
+/* pagina productos*/
+.gral {
+    margin: 40px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+#Principal {
+    display: flex;
+    width: 60vw;
+}
+#Principal article img {
+    width: 190px;
+}
+
+#Principal article {
+    display: flex;
+    flex-direction: column;
+    font-size: 13px;
+}
+
+#Principal article h1 {
+    padding-bottom: 15px;
+    font-size: 55px;
+    font-family: 'Nunito';
+    letter-spacing: -4px;
+}
+
+#Principal article h3 {
+    padding-top: 35px;
+}
+
+#Secundario {
+    display: flex;
+    justify-content: center;
+}
+
+.caja {
+    margin: 15px 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.cardsProducto {
+    border: 2px solid transparent;
+    box-shadow: 0px 0px 10px 2px rgb(16, 154, 164);
+    transition: all 0.2s ease-in-out;
+    height: 464px;
+    margin: 20px 0px;
+}
+
+.cardsProducto:hover {
+    box-shadow: none;
+    border: 2px solid rgb(16, 154, 164);
+}
+
+.cardsProducto .contenedorImg {
+    min-height: 135px;
+}
+
+.cardsProducto img {
+    width: 200px;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.cardsProducto h3 {
+    color: rgb(16, 154, 164);
+    min-height: 10px;
+}
+
+.cardsProducto .card-body p {
+    min-height: 200px;
+}
+
+.cardsProducto a {
+    background-color: transparent;
+    border: 2px solid rgb(16, 154, 164);
+    color: rgb(16, 154, 164);
+}
+
+.cardsProducto a:hover {
+    background-color: rgb(16, 154, 164);
+    border: 2px solid transparent;
+}

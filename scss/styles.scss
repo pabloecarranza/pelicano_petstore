@@ -1,0 +1,33 @@
+
+//Colors Palette
+$colorPrimario: rgb(72, 191, 202);
+$colorSecundario: rgb(68, 155, 163);
+$colorExtra: rgb(190, 198, 199);
+$tipografiaGeneral: "Nunito";
+$tipografiaSecundaria: "Allison";
+$tipografiaDefault: "Nobile";
+
+/* Global Reset */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: $tipografiaDefault;
+}
+
+/* Import Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Nobile:wght@400&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Allison&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+// import Modules SCSS
+@import "mixins";
+@import "index";
+@import "home";
+@import "navbar-footer";
+@import "products";
+@import "guides";
+@import "us";
+@import "wholesaler";
+@import "media-queries";
+

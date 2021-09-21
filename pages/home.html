@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous" />
+    <!-- Styles Primary -->
+    <link rel="stylesheet" href="../css/styles.css" />
+    <!-- Animate CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <!-- AOS CDN -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <title>Principal</title>
+  </head>
+  <body>
+    <!-- Sticky Element -->
+    <a href="https://api.whatsapp.com/message/6JXHZW5NVUALA1" target="_blank">
+      <img class=" animate__animated animate__heartBeat animate__delay-3s float__logoWhats--sticky" src="../img/social/whatsappColor.png" alt="" width="60px"/>
+    </a>
+    <header>
+      <!-- Navigator Bar -->
+      <nav
+        class=" animate__animated animate__fadeInDown animate__fast navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container-fluid">
+          <img class="animate__animated animate__flip animate__delay-1s" id="company__logo" src="../img/pelicanoBlack.png" alt="" width="50" class="d-inline-block align-text-center"/>
+          <a class="animate__animated animate__fadeIn navbar-brand" href="#">
+            Pelicano PetStore
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+              <a class="nav-link active" aria-current="page" href="#">Principal</a>
+              <a class="nav-link" href="./products.html">Productos</a>
+              <a class="nav-link" href="./guides.html">Guias</a>
+              <a class="nav-link" href="./wholesaler.html">Mayorista</a>
+              <a class="nav-link" href="./us.html">Nosotros</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Primary Section -->
+    <section id="containerPrimary">
+      <div class="containerPrimary__company">
+        <img class="animate__animated animate__fadeInLeft animate__delay-0.3s" src="../img/pelicano.jpg" alt="" />
+        <h2 class="animate__animated animate__fadeInLeft animate__delay-0.5s">
+          Somos Fabricantes
+        </h2>
+        <p class="animate__animated animate__fadeInLeft animate__delay-1s">
+          Venta de artículos Premium para mascotas. Ofrecemos precio, calidad y
+          diseño exclusivos. Para conocer nuestros productos has
+        </p>
+        <div class=" animate__animated animate__bounceIn animate__delay-2s containerPrimary_button">
+          <a href="../paginas/productos.html">Click Aquí </a>
+        </div>
+      </div>
+      <img class="animate__animated animate__fadeIn containerPrimary_img--Desktop" src="../img/perroFondo2.png" alt="perro" />
+      <img class="containerPrimary_img--Mobile" src="../img/perroFondo.png" alt="perro" display="none" />
+    </section>
+    <!-- Cards -->
+    <div class="cardsBox">
+      <article data-aos="fade-up"
+      data-aos-anchor-placement="top-center" class="card__1">
+        <img src="../img/price.png" alt=""  />
+        <h2>Precios Inbatibles</h2>
+        <p>Somos los fabricantes con el mejor precio del mercado.</p>
+      </article>
+      <article data-aos="fade-up"
+      data-aos-anchor-placement="top-center" class="card__2">
+        <img src="../img/quality.png" alt="" />
+        <h2>Calidad Premium</h2>
+        <p>
+          La confeccion detallista nos destaca junto a la calidad de nuestros
+          materiales
+        </p>
+      </article>
+      <article data-aos="fade-up"
+      data-aos-anchor-placement="top-center" class="card__3">
+        <img src="../img/waterproof.png" alt="" />
+        <h2>Productos Impermeables</h2>
+        <p>
+          Todos nuestros productos son impermeables y ademas son antidesgarros.
+        </p>
+      </article>
+    </div>
+    <!-- IMG Cards -->
+    <div class="InstaBox">
+      <img src="../img/antidesgarro.jpg" alt="" width="23%" />
+      <img src="../img/impermeable.jpg" alt="" width="23%" />
+      <img src="../img/diseño.jpg" alt="" width="23%" />
+    </div>
+ <!-- Footer -->
+    <footer>
+      <div class="Box__icons">
+        <img src="../img/social/facebook.png" alt="">
+        <img src="../img/social/instagram.png" alt="">
+        <img src="../img/social/twitter.png" alt="">
+      </div>
+      <div class="SiteMap">
+        <ul>
+          <li><a href="">Principal</a></li>
+          <li><a href="">Productos</a></li>
+          <li><a href="">Guias</a></li>
+          <li><a href="">Mayoristas</a></li>
+          <li><a href="">Nosotros</a></li>
+
+        </ul>
+      </div>
+    </footer>
+    <!-- initialize Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script> 
+    <script> AOS.init(); </script>
+  </body>
+</html>

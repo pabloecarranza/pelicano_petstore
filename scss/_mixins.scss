@@ -1,0 +1,7 @@
+// Cards Style 
+@mixin card {
+    height: 320px;
+    flex-direction: column;
+    width: 200px;
+    text-align: center;
+  }
