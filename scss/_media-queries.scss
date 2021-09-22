@@ -1,0 +1,38 @@
+@media (max-width: 380px) {
+//   Responsive Moblie Index.html
+    .login {
+    img {
+      width: 60vw;
+    }
+  }
+//   Responsive Mobile Home.html
+  .navbar{
+      height: 75px;
+  }
+  #containerPrimary{
+      flex-direction: column;
+      align-items: center;
+  }
+  .containerPrimary__company{
+    padding-top: 0px;
+    padding-left: 0px;
+    width: 100%;
+    align-items: center;
+    p{
+        text-align: center;
+    }
+  }
+  .containerPrimary_img--Desktop{
+      display: none;
+  }
+  .cardsBox{
+      flex-direction: column;
+      align-items: center;
+  }
+  .InstaBox{
+      flex-direction: column;
+      align-items: center;
+      width: 300px
+  }
+   
+}

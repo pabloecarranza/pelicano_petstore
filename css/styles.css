@@ -48,22 +48,6 @@
   font-family: "Allison";
 }
 
-.login div {
-  margin-top: 30px;
-  background-color: #449ba3;
-  border-radius: 10px;
-}
-
-.login div a {
-  text-decoration: none;
-  color: white;
-}
-
-.login div:hover {
-  background-color: #48bfca;
-  border-radius: 10px;
-}
-
 /* Pagina principal*/
 #company__logo {
   margin-right: 12px;
@@ -227,6 +211,10 @@
   display: flex;
   -ms-flex-pack: distribute;
       justify-content: space-around;
+}
+
+.InstaBox img {
+  width: 260px;
 }
 
 /* menu de navegacion*/
@@ -440,5 +428,56 @@ footer .SiteMap ul li a {
 
 .form {
   margin-top: 40px;
+}
+
+@media (max-width: 380px) {
+  .login img {
+    width: 60vw;
+  }
+  .navbar {
+    height: 75px;
+  }
+  #containerPrimary {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .containerPrimary__company {
+    padding-top: 0px;
+    padding-left: 0px;
+    width: 100%;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .containerPrimary__company p {
+    text-align: center;
+  }
+  .containerPrimary_img--Desktop {
+    display: none;
+  }
+  .cardsBox {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .InstaBox {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    width: 300px;
+  }
 }
 /*# sourceMappingURL=styles.css.map */
