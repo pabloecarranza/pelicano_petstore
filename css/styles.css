@@ -51,9 +51,11 @@
 /* Pagina principal*/
 #company__logo {
   margin-right: 12px;
+  width: 50px;
 }
 
 .float__logoWhats--sticky {
+  width: 50px;
   position: absolute;
   position: fixed;
   z-index: 1;
@@ -66,12 +68,6 @@
           transform: scale(1.1);
   -webkit-transition: all ease 500ms;
   transition: all ease 500ms;
-}
-
-@media (max-width: 512px) {
-  .float__logoWhats--sticky {
-    left: 80%;
-  }
 }
 
 .containerPrimary_img--Mobile {
@@ -430,12 +426,25 @@ footer .SiteMap ul li a {
   margin-top: 40px;
 }
 
-@media (max-width: 380px) {
+@media (min-width: 1px) and (max-width: 480px) {
+  html {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
   .login img {
     width: 60vw;
   }
+  .float__logoWhats--sticky {
+    top: 583px;
+    left: 294px;
+  }
   .navbar {
     height: 75px;
+  }
+  #company__logo {
+    margin-right: 0px;
+    width: 50px;
   }
   #containerPrimary {
     -webkit-box-orient: vertical;
@@ -448,14 +457,21 @@ footer .SiteMap ul li a {
   }
   .containerPrimary__company {
     padding-top: 0px;
-    padding-left: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
     width: 100%;
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
+    text-align: center;
   }
   .containerPrimary__company p {
+    margin: 10px;
+    padding: 0 25px;
     text-align: center;
+  }
+  .containerPrimary__company img {
+    padding-bottom: 18px;
   }
   .containerPrimary_img--Desktop {
     display: none;
@@ -469,6 +485,10 @@ footer .SiteMap ul li a {
         -ms-flex-align: center;
             align-items: center;
   }
+  .cardsBox img {
+    width: 157px;
+    padding-bottom: 2px;
+  }
   .InstaBox {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -477,7 +497,20 @@ footer .SiteMap ul li a {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    width: 300px;
+  }
+  .InstaBox img {
+    margin: 20px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 769px) {
+  .float__logoWhats--sticky {
+    top: 300px;
+  }
+  .navbar {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    height: 90px;
   }
 }
 /*# sourceMappingURL=styles.css.map */

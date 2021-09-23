@@ -1,38 +1,71 @@
-@media (max-width: 380px) {
-//   Responsive Moblie Index.html
-    .login {
+@media (min-width: 1px) and (max-width: 480px) {
+  //   Responsive Moblie Index.html
+  html {
+    display: flex;
+  }
+  .login {
     img {
       width: 60vw;
     }
   }
-//   Responsive Mobile Home.html
-  .navbar{
-      height: 75px;
+  //   Responsive Mobile Home.html
+   .float__logoWhats--sticky {
+     top: 583px;
+     left: 294px;
   }
-  #containerPrimary{
-      flex-direction: column;
-      align-items: center;
+  .navbar {
+    height: 75px;
   }
-  .containerPrimary__company{
+  #company__logo {
+     margin-right: 0px; 
+     width: 50px; 
+}
+  #containerPrimary {
+    flex-direction: column;
+    align-items: center;
+  }
+  .containerPrimary__company {
     padding-top: 0px;
-    padding-left: 0px;
+    padding-left: 10px;
+    padding-right: 10px;
     width: 100%;
     align-items: center;
-    p{
-        text-align: center;
+    text-align: center;
+    p {
+      margin: 10px;
+      padding: 0 25px;
+      text-align: center;
+    }
+    img {
+      padding-bottom: 18px;
     }
   }
-  .containerPrimary_img--Desktop{
-      display: none;
+  .containerPrimary_img--Desktop {
+    display: none;
   }
-  .cardsBox{
-      flex-direction: column;
-      align-items: center;
+  .cardsBox {
+    flex-direction: column;
+    align-items: center;
+    img {
+      width: 157px;
+      padding-bottom: 2px;
+    }
   }
-  .InstaBox{
-      flex-direction: column;
-      align-items: center;
-      width: 300px
+  .InstaBox {
+    flex-direction: column;
+    align-items: center;
+    img {
+      margin: 20px;
+    }
   }
-   
+}
+
+@media (min-width: 481px) and (max-width: 769px){
+  .float__logoWhats--sticky {
+    top: 300px
+  }
+  .navbar {
+    flex-wrap: nowrap;
+    height: 90px;
+  }
 }
