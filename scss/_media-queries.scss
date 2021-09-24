@@ -57,11 +57,15 @@
       margin: 20px;
     }
   }
+  .Footer__copy{
+    margin-top: 17px;
+    flex-direction: column;
+  }
 }
 
 @media (min-width: 481px) and (max-width: 769px){
   .float__logoWhats--sticky {
-    top: 300px
+    top: 300px;
   }
   .navbar {
     flex-wrap: nowrap;

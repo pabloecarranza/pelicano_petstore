@@ -21,6 +21,7 @@
 }
 
 .login {
+  width: 100vw;
   margin-top: 10px;
   height: 80vh;
   display: -webkit-box;
@@ -55,19 +56,16 @@
 }
 
 .float__logoWhats--sticky {
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
   width: 50px;
   position: absolute;
   position: fixed;
   z-index: 1;
   top: 83%;
   left: 91%;
-}
-
-.float__logoWhats--sticky:hover {
-  -webkit-transform: scale(1.1);
-          transform: scale(1.1);
-  -webkit-transition: all ease 500ms;
-  transition: all ease 500ms;
 }
 
 .containerPrimary_img--Mobile {
@@ -210,6 +208,13 @@
 }
 
 .InstaBox img {
+  background: rgba(238, 238, 238, 0.35);
+  -webkit-box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+          box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
   width: 260px;
 }
 
@@ -258,9 +263,10 @@ a.nav-link:hover {
 
 footer {
   margin-top: 90px;
-  background-color: #e2e2e2;
-  -webkit-box-shadow: 0px -5px 9px 2px rgba(223, 223, 223, 0.582);
-          box-shadow: 0px -5px 9px 2px rgba(223, 223, 223, 0.582);
+  border-radius: 14px 14px 0px 0px;
+  background: linear-gradient(315deg, #ffffff, #e1e1e1);
+  -webkit-box-shadow: -9px -9px 22px #d5d5d5, 9px 9px 22px #ffffff;
+          box-shadow: -9px -9px 22px #d5d5d5, 9px 9px 22px #ffffff;
 }
 
 footer div {
@@ -324,6 +330,33 @@ footer .SiteMap ul li a {
     padding: 0px;
     margin: 0px;
   }
+}
+
+.footer__button {
+  -webkit-transition: -webkit-transform .2s;
+  transition: -webkit-transform .2s;
+  transition: transform .2s;
+  transition: transform .2s, -webkit-transform .2s;
+}
+
+.footer__button:hover {
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+}
+
+.Footer__copy {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 10px;
+}
+
+.Footer__copy div {
+  font-size: 0.9em;
+  margin: 0px 6px;
 }
 
 /* pagina productos*/
@@ -499,6 +532,13 @@ footer .SiteMap ul li a {
   }
   .InstaBox img {
     margin: 20px;
+  }
+  .Footer__copy {
+    margin-top: 17px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 
