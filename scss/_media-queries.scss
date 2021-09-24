@@ -1,5 +1,19 @@
 @media (min-width: 1px) and (max-width: 480px) {
   //   Responsive Moblie Index.html
+  .navbar-nav {
+    background-color: #ffffff;
+    margin-top: 7px;
+    padding: 20px 10px;
+    background: rgba( 255, 255, 255, 0.95 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 20px );
+-webkit-backdrop-filter: blur( 20px );
+border-radius: 10px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #040404;
+}
   html {
     display: flex;
   }
@@ -61,9 +75,35 @@
     margin-top: 17px;
     flex-direction: column;
   }
+  footer {
+    padding: 20px 0px;
+}
+
+.SiteMap ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    margin: 0px;
+}
 }
 
 @media (min-width: 481px) and (max-width: 769px){
+  .navbar-nav {
+    background-color: #ffffff;
+    margin-top: 7px;
+    padding: 20px 10px;
+    background: rgba( 255, 255, 255, 0.95 );
+box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+backdrop-filter: blur( 20px );
+-webkit-backdrop-filter: blur( 20px );
+border-radius: 10px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #040404;
+}
   .float__logoWhats--sticky {
     top: 300px;
   }

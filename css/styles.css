@@ -265,8 +265,8 @@ footer {
   margin-top: 90px;
   border-radius: 14px 14px 0px 0px;
   background: linear-gradient(315deg, #ffffff, #e1e1e1);
-  -webkit-box-shadow: -9px -9px 22px #d5d5d5, 9px 9px 22px #ffffff;
-          box-shadow: -9px -9px 22px #d5d5d5, 9px 9px 22px #ffffff;
+  -webkit-box-shadow: -9px -9px 22px #d5d5d5, 9px 9px 22px #ffffff;
+          box-shadow: -9px -9px 22px #d5d5d5, 9px 9px 22px #ffffff;
 }
 
 footer div {
@@ -296,47 +296,11 @@ footer .SiteMap ul li a {
   text-decoration: none;
 }
 
-@media (max-width: 512px) {
-  header img {
-    width: 40px;
-  }
-  a.navbar-brand {
-    font-size: 2.2rem;
-  }
-  .navbar-nav {
-    background-color: #48bfca;
-    padding: 20px 10px;
-  }
-  .navbar-light .navbar-nav .nav-link {
-    color: white;
-  }
-  footer {
-    padding: 20px 0px;
-  }
-  .SiteMap ul {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    padding: 0px;
-    margin: 0px;
-  }
-}
-
 .footer__button {
-  -webkit-transition: -webkit-transform .2s;
-  transition: -webkit-transform .2s;
-  transition: transform .2s;
-  transition: transform .2s, -webkit-transform .2s;
+  -webkit-transition: -webkit-transform 0.2s;
+  transition: -webkit-transform 0.2s;
+  transition: transform 0.2s;
+  transition: transform 0.2s, -webkit-transform 0.2s;
 }
 
 .footer__button:hover {
@@ -429,7 +393,7 @@ footer .SiteMap ul li a {
   background-image: url("../img/pelicano1.png");
   background-repeat: no-repeat;
   background-position: center bottom;
-  min-height: 80vh;
+  min-height: 108vh;
   padding: 30px;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -460,6 +424,20 @@ footer .SiteMap ul li a {
 }
 
 @media (min-width: 1px) and (max-width: 480px) {
+  .navbar-nav {
+    background-color: #ffffff;
+    margin-top: 7px;
+    padding: 20px 10px;
+    background: rgba(255, 255, 255, 0.95);
+    -webkit-box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 10px;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    color: #040404;
+  }
   html {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -540,9 +518,43 @@ footer .SiteMap ul li a {
         -ms-flex-direction: column;
             flex-direction: column;
   }
+  footer {
+    padding: 20px 0px;
+  }
+  .SiteMap ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    padding: 0px;
+    margin: 0px;
+  }
 }
 
 @media (min-width: 481px) and (max-width: 769px) {
+  .navbar-nav {
+    background-color: #ffffff;
+    margin-top: 7px;
+    padding: 20px 10px;
+    background: rgba(255, 255, 255, 0.95);
+    -webkit-box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 10px;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    color: #040404;
+  }
   .float__logoWhats--sticky {
     top: 300px;
   }
