@@ -390,9 +390,6 @@ footer .SiteMap ul li a {
 /* pagina nosotros */
 #nosotros {
   position: relative;
-  background-image: url("../img/pelicano1.png");
-  background-repeat: no-repeat;
-  background-position: center bottom;
   min-height: 108vh;
   padding: 30px;
   display: -webkit-box;
@@ -546,8 +543,8 @@ footer .SiteMap ul li a {
     margin-top: 7px;
     padding: 20px 10px;
     background: rgba(255, 255, 255, 0.95);
-    -webkit-box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
-            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    -webkit-box-shadow: 0 8px 32px 0 rgba(57, 58, 68, 0.37);
+            box-shadow: 0 8px 32px 0 rgba(57, 58, 68, 0.37);
     backdrop-filter: blur(20px);
     -webkit-backdrop-filter: blur(20px);
     border-radius: 10px;
@@ -562,6 +559,10 @@ footer .SiteMap ul li a {
     -ms-flex-wrap: nowrap;
         flex-wrap: nowrap;
     height: 90px;
+  }
+  #nosotros img {
+    width: 55vw;
+    margin-top: 35px;
   }
 }
 /*# sourceMappingURL=styles.css.map */

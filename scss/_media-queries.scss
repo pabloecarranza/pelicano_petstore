@@ -4,16 +4,16 @@
     background-color: #ffffff;
     margin-top: 7px;
     padding: 20px 10px;
-    background: rgba( 255, 255, 255, 0.95 );
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-backdrop-filter: blur( 20px );
--webkit-backdrop-filter: blur( 20px );
-border-radius: 10px;
-}
+    background: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 10px;
+  }
 
-.navbar-light .navbar-nav .nav-link {
+  .navbar-light .navbar-nav .nav-link {
     color: #040404;
-}
+  }
   html {
     display: flex;
   }
@@ -23,16 +23,16 @@ border-radius: 10px;
     }
   }
   //   Responsive Mobile Home.html
-   .float__logoWhats--sticky {
-     left: 294px;
+  .float__logoWhats--sticky {
+    left: 294px;
   }
   .navbar {
     height: 75px;
   }
   #company__logo {
-     margin-right: 0px; 
-     width: 50px; 
-}
+    margin-right: 0px;
+    width: 50px;
+  }
   #containerPrimary {
     flex-direction: column;
     align-items: center;
@@ -71,44 +71,50 @@ border-radius: 10px;
       margin: 20px;
     }
   }
-  .Footer__copy{
+  .Footer__copy {
     margin-top: 17px;
     flex-direction: column;
   }
   footer {
     padding: 20px 0px;
-}
+  }
 
-.SiteMap ul {
+  .SiteMap ul {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 0px;
     margin: 0px;
-}
+  }
 }
 
-@media (min-width: 481px) and (max-width: 769px){
+@media (min-width: 481px) and (max-width: 769px) {
   .navbar-nav {
     background-color: #ffffff;
     margin-top: 7px;
     padding: 20px 10px;
-    background: rgba( 255, 255, 255, 0.95 );
-box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
-backdrop-filter: blur( 20px );
--webkit-backdrop-filter: blur( 20px );
-border-radius: 10px;
-}
+    background: rgba(255, 255, 255, 0.95);
+    box-shadow: 0 8px 32px 0 rgba(57, 58, 68, 0.37);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 10px;
+  }
 
-.navbar-light .navbar-nav .nav-link {
+  .navbar-light .navbar-nav .nav-link {
     color: #040404;
-}
+  }
   .float__logoWhats--sticky {
     top: 300px;
   }
   .navbar {
     flex-wrap: nowrap;
     height: 90px;
+  }
+  #nosotros {
+    img {
+      width: 55vw;
+      margin-top: 35px;
+    }
   }
 }
