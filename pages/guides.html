@@ -20,21 +20,20 @@
         </a>
         <header>
             <!-- Navigator Bar -->
-            <nav
-                class=" animate__animated animate__fadeInDown animate__fast navbar navbar-expand-lg navbar-light bg-white ">
+            <nav class=" animate__animated animate__fadeInDown animate__fast navbar navbar-expand-lg navbar-light bg-white">
                 <div class="container-fluid">
-                    <img class=" animate__animated animate__flip animate__delay-1s" id="company__logo" src="../img/pelicanoBlack.png" alt="LogotipoMenu" width="50" class="d-inline-block align-text-center"/>
+                    <img class=" animate__animated animate__flip animate__delay-1s" id="company__logo" src="../img/pelicanoBlack.png" alt="LogotipoMenu" width="50"/>
                     <a class="animate__animated animate__fadeIn navbar-brand" href="#" >
                         Pelicano PetStore
                     </a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation" >
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup" >
+                    <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                         <div class="navbar-nav">
-                            <a class="nav-link" aria-current="page" href="./home.html" >Principal</a>
-                            <a class="nav-link" href="./products.html">Productos</a>
-                            <a class="nav-link active" href="#">Guias</a>
+                            <a class="nav-link" aria-current="page" href="./home.html">Principal</a>
+                            <a class="nav-link " href="../pages/products.html">Productos</a>
+                            <a class="nav-link active" href="./guides.html">Guias</a>
                             <a class="nav-link" href="./wholesaler.html">Mayorista</a>
                             <a class="nav-link" href="./us.html">Nosotros</a>
                         </div>
@@ -43,7 +42,7 @@
             </nav>
         </header>
 
-        <section id="guias">
+        <section data-aos="zoom-in" id="guias">
             <div class="container">
                 <div class="row justify-content-center">
                     <div class="col-lg-5">
@@ -51,26 +50,27 @@
                             class="accordion"
                             id="accordionPanelsStayOpenExample"
                         >
+
                             <div class="accordion-item">
                                 <h2
                                     class="accordion-header"
                                     id="panelsStayOpen-headingOne"
                                 >
                                     <button
-                                        class="accordion-button"
+                                        class="accordion-button collapsed"
                                         type="button"
                                         data-bs-toggle="collapse"
                                         data-bs-target="#panelsStayOpen-collapseOne"
-                                        aria-expanded="true"
+                                        aria-expanded="false"
                                         aria-controls="panelsStayOpen-collapseOne"
                                     >
-                                        Super Pequeña
+                                    Super Pequeña
                                     </button>
                                 </h2>
                                 <div
                                     id="panelsStayOpen-collapseOne"
-                                    class="accordion-collapse collapse show"
-                                    aria-labelledby="panelsStayOpen-headingOne"
+                                    class="accordion-collapse collapse"
+                                    aria-labelledby="panelsStayOpen-headingONe"
                                 >
                                     <div class="accordion-body">
                                         <ul>
@@ -226,12 +226,12 @@
 
         <!-- Footer Start -->
         <footer>
-            <div class="Box__icons">
+            <div data-aos="flip-up" data-aos-delay="150" class="Box__icons">
               <a class="footer__button" href="https://www.facebook.com/" target="_blank" ><img src="../img/social/facebook.png" alt="logoFacebook"></a>
               <a class="footer__button" href="https://www.instagram.com/pelicano_petstore/" target="_blank"><img src="../img/social/instagram.png" alt="logoInstagram"></a>
               <a class="footer__button" href="https://twitter.com/?lang=es" target="_blank" ><img src="../img/social/twitter.png" alt="logoTwitter"></a>
             </div>
-            <div class="SiteMap">
+            <div data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-delay="370" class="SiteMap">
               <ul>
                 <li><a class="footer__button" href="../pages/home.html">Principal</a></li>
                 <li><a class="footer__button" href="../pages/products.html">Productos</a></li>
