@@ -4,9 +4,24 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- CDN Boostrap -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous" />
+        <!-- Linkeo CSS -->
         <link rel="stylesheet" href="../css/styles.css" />
+        <!-- Precarga de imagenes -->
+        <link rel="preload" as="image" href="../img/pelicanoBlack.png" />
+        <link rel="preload" as="image" href="../img/prod1.jpg" />
+        <link rel="preload" as="image" href="../img/prod2.jpg" />
+        <link rel="preload" as="image" href="../img/prod3.jpg" />
+        <link rel="preload" as="image" href="../img/prod4.jpg" />
+        <link rel="preload" as="image" href="../img/social/facebook.png" />
+        <link rel="preload" as="image" href="../img/social/instagram.png" />
+        <link rel="preload" as="image" href="../img/social/twitter.png" />
+        <link rel="preload" as="image" href="../img/social/whatsapp.png" />
+        <link rel="preload" as="image" href="../img/social/whatsappColor.png" />
+        <!-- CDN Animate-->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+        <!-- CDN Animate on scroll (AOS) -->
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
         <title>Productos</title>
         <meta name="author" content="Pablo Carranza">
@@ -16,13 +31,13 @@
     <body>
         <!-- Sticky Element -->
         <a href="https://api.whatsapp.com/message/6JXHZW5NVUALA1" target="_blank">
-            <img class="animate__animated animate__heartBeat animate__delay-3s float__logoWhats--sticky" src="../img/social/whatsappColor.png" alt="LogoWhatsApp" width="60px" />
+            <img class="animate__animated animate__heartBeat animate__delay-3s float__logoWhats--sticky" src="../img/social/whatsappColor.png" alt="LogoWhatsApp"/>
         </a>
         <header>
             <!-- Navigator Bar -->
             <nav class=" animate__animated animate__fadeInDown animate__fast navbar navbar-expand-lg navbar-light bg-white">
                 <div class="container-fluid">
-                    <img class=" animate__animated animate__flip animate__delay-1s" id="company__logo" src="../img/pelicanoBlack.png" alt="LogotipoMenu" width="50"/>
+                    <img class=" animate__animated animate__flip animate__delay-1s" id="company__logo" src="../img/pelicanoBlack.png" alt="LogotipoMenu"/>
                     <a class="animate__animated animate__fadeIn navbar-brand" href="#" >
                         Pelicano PetStore
                     </a>
@@ -117,7 +132,7 @@
 
         <!-- Footer Start -->
         <footer>
-            <div data-aos="flip-up" class="Box__icons">
+            <div class="animate__animated animate__fadeIn" class="Box__icons">
               <a class="footer__button" href="https://www.facebook.com/" target="_blank" ><img src="../img/social/facebook.png" alt="logoFacebook"></a>
               <a class="footer__button" href="https://www.instagram.com/pelicano_petstore/" target="_blank"><img src="../img/social/instagram.png" alt="logoInstagram"></a>
               <a class="footer__button" href="https://twitter.com/?lang=es" target="_blank" ><img src="../img/social/twitter.png" alt="logoTwitter"></a>

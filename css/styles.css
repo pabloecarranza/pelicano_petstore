@@ -68,11 +68,6 @@
   left: 91%;
 }
 
-.containerPrimary_img--Mobile {
-  display: none;
-  width: 100%;
-}
-
 .containerPrimary_img--Desktop {
   width: 61vw;
 }
