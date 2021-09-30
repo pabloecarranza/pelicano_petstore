@@ -540,7 +540,50 @@ footer .SiteMap ul li a {
   }
 }
 
-@media (min-width: 481px) and (max-width: 769px) {
+@media (max-width: 667px) and (orientation: landscape) {
+  #containerPrimary {
+    height: 80vh;
+  }
+  .containerPrimary__company {
+    padding-top: 8px;
+    height: 80vh;
+    width: 38vw;
+  }
+  .containerPrimary__company img {
+    width: 100px;
+  }
+  .containerPrimary__company h2 {
+    margin-bottom: 0px;
+    font-size: 25px;
+  }
+  .containerPrimary__company p {
+    margin-bottom: 0px;
+  }
+  .navbar {
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+  .InstaBox img {
+    width: 177px;
+  }
+  .navbar-collapse {
+    -ms-flex-preferred-size: 100%;
+        flex-basis: 100%;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
+    background-color: #ffffff;
+    padding: 20px 10px;
+    background: rgba(255, 255, 255, 0.95);
+    -webkit-box-shadow: 0 8px 32px 0 rgba(57, 58, 68, 0.37);
+            box-shadow: 0 8px 32px 0 rgba(57, 58, 68, 0.37);
+    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
+    border-radius: 10px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 769px) and (orientation: portrait) {
   .navbar-nav {
     background-color: #ffffff;
     margin-top: 7px;

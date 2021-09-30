@@ -1,3 +1,5 @@
+
+
 @media (min-width: 1px) and (max-width: 480px) {
   //   Responsive Moblie Index.html
   .navbar-nav {
@@ -93,7 +95,49 @@
   }
 }
 
-@media (min-width: 481px) and (max-width: 769px) {
+@media (max-width: 667px) and (orientation: landscape){
+  #containerPrimary{
+    height: 80vh;
+  }
+  .containerPrimary__company {
+    padding-top: 8px;
+    height: 80vh;
+    width: 38vw;
+    img{
+      width: 100px;
+    }
+    h2{
+      margin-bottom: 0px;
+      font-size: 25px;
+    }
+    p{
+      margin-bottom: 0px;
+    }
+  }
+  .navbar{
+    padding-top: 0px;
+    padding-bottom: 0px;
+  }
+    .InstaBox{
+      img{
+        width: 177px;
+      }
+    }
+    .navbar-collapse {
+      flex-basis: 100%;
+      flex-grow: 1;
+      background-color: #ffffff;
+      padding: 20px 10px;
+      background: rgba(255, 255, 255, 0.95);
+      box-shadow: 0 8px 32px 0 rgba(57, 58, 68, 0.37);
+      backdrop-filter: blur(20px);
+      -webkit-backdrop-filter: blur(20px);
+      border-radius: 10px;
+      
+  }
+}
+
+@media (min-width: 481px) and (max-width: 769px) and (orientation: portrait){ //(min-width: 481px)
   .navbar-nav {
     background-color: #ffffff;
     margin-top: 7px;
